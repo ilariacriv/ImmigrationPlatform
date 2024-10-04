@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const TopicBox = ({ logo, title, description }) => {
+const TopicBox = (props) =>{
     return (
         <div style={styles.container}>
-            <img src={logo} alt="logo" style={styles.logo} />
-            <h2 style={styles.title}>{title}</h2>
-            <p style={styles.description}>{description}</p>
+            <img src={props.logo} alt="logo" style={styles.logo} />
+            <h2 style={styles.title}>{props.title}</h2>
+            <p style={styles.description}>{props.description}</p>
         </div>
     );
 };
