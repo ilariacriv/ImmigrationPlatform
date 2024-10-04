@@ -1,10 +1,11 @@
 import React from 'react';
 
-const NavigationBar = () => {
+const NavigationBar = ({ onHomeClick }) => {
+
     return (
         <nav style={styles.navbar}>
             <div style={leftItems}>
-                <button style={styles.button}>Home</button>
+                <button style={styles.button}  onClick={onHomeClick} >Home</button>
                 <button style={styles.button}>Menu</button>
             </div>
             <div style={rightItems}>

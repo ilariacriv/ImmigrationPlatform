@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = ({ onAboutClick }) => {
+
     return (
         <footer style={{ 
             textAlign: 'center', 
@@ -13,6 +14,13 @@ const Footer = () => {
         }}>
             <p>
                 This website is privately developed as part of a PhD project. This is not an official website. We cannot guarantee that the content is correct.
+                If you want to learn about the project and contribute check &nbsp;
+                <span 
+                   onClick={onAboutClick} 
+                   style={{ color: 'blue', textDecoration: 'underline', cursor: 'pointer' }}
+                > 
+                    About Us
+                </span>.
             </p>
         </footer>
     );
