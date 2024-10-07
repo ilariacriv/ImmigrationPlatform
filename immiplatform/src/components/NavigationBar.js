@@ -1,8 +1,13 @@
-import React from 'react';
+import React,  { useEffect }  from 'react';
 import { useTranslation } from 'react-i18next';
 
 const NavigationBar = ({ onHomeClick }) => {
     const { t, i18n } = useTranslation();
+
+    useEffect(() => {
+      console.log('Current language:', i18n.language);
+    }, [i18n.language]);
+  
   
     const changeLanguage = (lng) => {
       i18n.changeLanguage(lng);
