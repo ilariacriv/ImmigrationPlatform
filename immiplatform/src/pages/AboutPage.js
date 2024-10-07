@@ -1,21 +1,17 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const AboutPage = () => {
+
+    const { t } = useTranslation();
+
     return (
         <div style={{ padding: '20px' }}>
-            <h1>The Immigration Platform</h1>
+            <h1>{t('about.title')}</h1>
             <p>
-                Welcome to the Immigration Platform. Our project aims to improve immigrants understanding of the system in Norway. 
-                This is part of a PhD project at NTNU.
-            </p>
+            {t('about.content')} <a href="mailto:">XX</a> </p>
             <p>
-                If you are interested in contributing to our project, please feel free to reach out to us.
-            </p>
-            <p>
-                Contact me at: <a href="mailto:">XX</a>
-            </p>
-            <p>
-               Contributors to the website: Ilaria Crivellari (PhD candidate).
+            {t('about.contributors')} 
             </p>
         </div>
     );

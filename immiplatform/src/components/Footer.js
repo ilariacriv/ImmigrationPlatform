@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Footer = ({ onAboutClick }) => {
+    const { t } = useTranslation();
 
     return (
         <footer style={{ 
@@ -13,13 +15,12 @@ const Footer = ({ onAboutClick }) => {
             width: '100%' 
         }}>
             <p>
-                This website is privately developed as part of a PhD project. This is not an official website. We cannot guarantee that the content is correct.
-                If you want to learn about the project and contribute check &nbsp;
+            {t('footer.text')}
                 <span 
                    onClick={onAboutClick} 
                    style={{ color: 'blue', textDecoration: 'underline', cursor: 'pointer' }}
                 > 
-                    About Us
+                   {t('footer.about')}
                 </span>.
             </p>
         </footer>

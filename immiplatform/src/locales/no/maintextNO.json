@@ -1,0 +1,22 @@
+{
+  "navbar": {
+      "home": "Hjem",
+      "menu": "Meny",
+      "search": "Søk",
+      "placeholder": "Søk..."
+  },
+  "homepage": {
+      "websitetitle": "Immigrasjonsplattformen",
+      "header": "Dette er beskrivelsen av hjemmesiden."
+  },
+  "about": {
+    "title": "Immigrasjonsplattformen",
+    "content": "Velkommen til Immigrasjonsplattformen. Vårt prosjekt har som mål å forbedre innvandreres forståelse av systemet i Norge. Dette er en del av et PhD-prosjekt ved NTNU. Hvis du er interessert i å bidra til vårt prosjekt, vennligst ta kontakt med oss. Kontakt meg på:",
+    "contributors": "Bidragsytere til nettstedet: Ilaria Crivellari (PhD-kandidat)."
+  },
+
+  "footer": {
+    "about": "Om Oss",
+    "text": "Dette nettstedet er privat utviklet som en del av et PhD-prosjekt. Dette er ikke et offisielt nettsted. Vi kan ikke garantere at innholdet er korrekt. Hvis du vil lære om prosjektet og bidra, sjekk &nbsp;"
+  }
+}

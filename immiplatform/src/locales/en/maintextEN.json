@@ -1,0 +1,21 @@
+{
+  "navbar": {
+    "home": "Home",
+    "menu": "Menu",
+    "search": "Search",
+    "placeholder": "Search..."
+  },
+  "homepage": {
+    "websitetitle": "The Immigration Platform",
+    "header": "This is the homepage description."
+  },
+  "about": {
+    "title": "The Immigration Platform",
+    "content": "Welcome to the Immigration Platform. Our project aims to improve immigrants' understanding of the system in Norway. This is part of a PhD project at NTNU. If you are interested in contributing to our project, please feel free to reach out to us. Contact me at:",
+    "contributors": "Contributors to the website: Ilaria Crivellari (PhD candidate)."
+  },
+  "footer": {
+    "about": "About Us",
+    "text": "This website is privately developed as part of a PhD project. This is not an official website. We cannot guarantee that the content is correct. If you want to learn about the project and contribute check"
+  }
+}

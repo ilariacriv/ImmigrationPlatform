@@ -1,21 +1,30 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const NavigationBar = ({ onHomeClick }) => {
-
+    const { t, i18n } = useTranslation();
+  
+    const changeLanguage = (lng) => {
+      i18n.changeLanguage(lng);
+    };
+  
     return (
-        <nav style={styles.navbar}>
-            <div style={leftItems}>
-                <button style={styles.button}  onClick={onHomeClick} >Home</button>
-                <button style={styles.button}>Menu</button>
-            </div>
-            <div style={rightItems}>
-                <input type="text" placeholder="Search..." style={styles.searchBar} />
-                <button style={styles.button}>Search</button>
-                <button style={styles.button}>Language</button>
-            </div>
-        </nav>
+      <nav style={styles.navbar}>
+        <div style={leftItems}>
+          <button style={styles.button} onClick={onHomeClick}>{t('navbar.home')}</button>
+          <button style={styles.button}>{t('navbar.menu')}</button>
+        </div>
+        <div style={rightItems}>
+          <input type="text" placeholder={t('navbar.placeholder')} style={styles.searchBar} />
+          <button style={styles.button}>{t('navbar.search')}</button>
+          <select style={styles.button} onChange={(e) => changeLanguage(e.target.value)}>
+            <option value="en">English</option>
+            <option value="no">Norwegian</option>
+          </select>
+        </div>
+      </nav>
     );
-};
+  };
 
 const styles = {
     navbar: {
