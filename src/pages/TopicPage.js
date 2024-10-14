@@ -1,36 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const TopicPage = () => {
-    const { topicId } = useParams();
-    const [topic, setTopic] = useState(null);
+  const { id } = useParams();
+  const { t } = useTranslation();
 
-    useEffect(() => {
-        // Fetch topic data based on topicId
-        const fetchTopic = async () => {
-            try {
-                const response = await fetch(`/api/topics/${topicId}`);
-                const data = await response.json();
-                setTopic(data);
-            } catch (error) {
-                console.error('Error fetching topic:', error);
-            }
-        };
-
-        fetchTopic();
-    }, [topicId]);
-
-    if (!topic) {
-        return <div>Loading...</div>;
-    }
-
-    return (
-        <div>
-            <h1>{topic.title}</h1>
-            <p>{topic.description}</p>
-            {/* Add more topic details as needed */}
-        </div>
-    );
+  return (
+    <div>
+      <h1>{t(`topics.${id}.title`)}</h1>
+      <p>{t(`topics.${id}.description`)}</p>
+    </div>
+  );
 };
 
 export default TopicPage;

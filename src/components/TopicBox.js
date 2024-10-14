@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const TopicBox = (props) =>{
     return (
-        <div style={styles.container}>
+        <div style={styles.container} onClick={() => props.onClick(props.id)}>
             <img src={props.logo} alt="logo" style={styles.logo} />
             <h2 style={styles.title}>{props.title}</h2>
             <p style={styles.description}>{props.description}</p>

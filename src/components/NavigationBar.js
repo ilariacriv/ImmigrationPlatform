@@ -1,7 +1,8 @@
 import React,  { useEffect }  from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
-const NavigationBar = ({ onHomeClick }) => {
+const NavigationBar = () => {
     const { t, i18n } = useTranslation();
 
     useEffect(() => {
@@ -12,11 +13,17 @@ const NavigationBar = ({ onHomeClick }) => {
     const changeLanguage = (lng) => {
       i18n.changeLanguage(lng);
     };
+
+    const navigate = useNavigate();
+
+    const handleHomeClick = () => {
+      navigate(`/home`);
+    };
   
     return (
       <nav style={styles.navbar}>
         <div style={leftItems}>
-          <button style={styles.button} onClick={onHomeClick}>{t('navbar.home')}</button>
+          <button style={styles.button} onClick={handleHomeClick}>{t('navbar.home')}</button>
           <button style={styles.button}>{t('navbar.menu')}</button>
         </div>
         <div style={rightItems}>

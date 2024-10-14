@@ -1,8 +1,15 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
-const Footer = ({ onAboutClick }) => {
+const Footer = () => {
     const { t } = useTranslation();
+
+    const navigate = useNavigate();
+
+    const handleAboutClick = () => {
+        navigate(`/about`);
+    };
 
     return (
         <footer style={{ 
@@ -17,7 +24,7 @@ const Footer = ({ onAboutClick }) => {
             <p>
             {t('footer.text')}
                 <span 
-                   onClick={onAboutClick} 
+                   onClick={handleAboutClick} 
                    style={{ color: 'blue', textDecoration: 'underline', cursor: 'pointer' }}
                 > 
                    {t('footer.about')}
