@@ -7,7 +7,8 @@
   },
   "homepage": {
     "websitetitle": "The Immigration Platform",
-    "header": "This is the homepage description."
+    "header": "This is the homepage description.",
+    "hometext": "Welcome to Norway! What would you like to know?"
   },
   "about": {
     "title": "The Immigration Platform",
@@ -16,6 +17,61 @@
   },
   "footer": {
     "about": "About Us",
-    "text": "This website is privately developed as part of a PhD project. This is not an official website. We cannot guarantee that the content is correct. If you want to learn about the project and contribute check"
+    "text": "This website is privately developed as part of a PhD project. This is not an official website. We cannot guarantee that the content is correct. If you want to learn about the project and contribute check  "
+  },
+
+  "topics": {
+    "visa_documents": {
+      "title": "Visa and documents",
+      "description": "Information about visa and documents you need to stay in Norway"
+    },
+    "bankid": {
+      "title": "BankID",
+      "description": "You need a BankID to access all digital services in Norway. Find out what it is and how to get one"
+    },
+    "job_taxes": {
+      "title": "Job and Taxes",
+      "description": "Information about how to find a job and about how the Tax system works in Norway"
+    },
+    "education": {
+      "title": "Education",
+      "description": "Information about education"
+    },
+    "nav": {
+      "title": "NAV",
+      "description": "NAV is the welfare benefits provider in Norway. learn more about the benefits here."
+    },
+    "healthcare": {
+      "title": "Healthcare",
+      "description": "Information about the healthcare system"
+    },
+    "bank_account": {
+      "title": "Bank Account",
+      "description": "Information about opening a bank account and transferring money"
+    },
+    "housing": {
+      "title": "Housing",
+      "description": "Information about housing"
+    },
+    "norwegian_culture": {
+      "title": "Norwegian Culture",
+      "description": "Information about culture"
+    },
+    "learn_norwegian": {
+      "title": "Learn Norwegian",
+      "description": "Information about language"
+    },
+    "family_children": {
+      "title": "Family and children",
+      "description": "Information about legal matters"
+    },
+    "explore_norway": {
+      "title": "Explore Norway",
+      "description": "Information about traveling in Norway"
+    },
+    "leisure_volunteering": {
+      "title": "Leisure and Volunteering",
+      "description": "Information about recreation"
+    }
   }
 }

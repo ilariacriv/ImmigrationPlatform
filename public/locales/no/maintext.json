@@ -7,7 +7,8 @@
   },
   "homepage": {
       "websitetitle": "Immigrasjonsplattformen",
-      "header": "Dette er beskrivelsen av hjemmesiden."
+      "header": "Dette er beskrivelsen av hjemmesiden.",
+      "hometext": "Velkommen til Norge! Hva vil du vite?"
   },
   "about": {
     "title": "Immigrasjonsplattformen",
@@ -17,6 +18,61 @@
 
   "footer": {
     "about": "Om Oss",
-    "text": "Dette nettstedet er privat utviklet som en del av et PhD-prosjekt. Dette er ikke et offisielt nettsted. Vi kan ikke garantere at innholdet er korrekt. Hvis du vil lære om prosjektet og bidra, sjekk"
+    "text": "Dette nettstedet er privat utviklet som en del av et PhD-prosjekt. Dette er ikke et offisielt nettsted. Vi kan ikke garantere at innholdet er korrekt. Hvis du vil lære om prosjektet og bidra, sjekk "
+  },
+
+  "topics": {
+    "visa_documents": {
+      "title": "Visum og dokumenter",
+      "description": "Informasjon om visum og dokumenter du trenger for å oppholde deg i Norge"
+    },
+    "bankid": {
+      "title": "BankID",
+      "description": "Du trenger en BankID for å få tilgang til alle digitale tjenester i Norge. Finn ut hva det er og hvordan du får en"
+    },
+    "job_taxes": {
+      "title": "Jobb og Skatt",
+      "description": "Informasjon om hvordan du finner en jobb og om hvordan skattesystemet fungerer i Norge"
+    },
+    "education": {
+      "title": "Utdanning",
+      "description": "Informasjon om utdanning"
+    },
+    "nav": {
+      "title": "NAV",
+      "description": "NAV er leverandøren av velferdsytelser i Norge. Lær mer om ytelsene her."
+    },
+    "healthcare": {
+      "title": "Helsevesen",
+      "description": "Informasjon om helsevesenet"
+    },
+    "bank_account": {
+      "title": "Bankkonto",
+      "description": "Informasjon om å åpne en bankkonto og overføre penger"
+    },
+    "housing": {
+      "title": "Bolig",
+      "description": "Informasjon om bolig"
+    },
+    "norwegian_culture": {
+      "title": "Norsk Kultur",
+      "description": "Informasjon om kultur"
+    },
+    "learn_norwegian": {
+      "title": "Lær Norsk",
+      "description": "Informasjon om å lære norsk"
+    },
+    "family_children": {
+      "title": "Familie og barn",
+      "description": "Informasjon om familie og barn"
+    },
+    "explore_norway": {
+      "title": "Utforsk Norge",
+      "description": "Informasjon om å reise i Norge"
+    },
+    "leisure_volunteering": {
+      "title": "Fritid og Frivillighet",
+      "description": "Informasjon om fritid"
+    }
   }
 }
