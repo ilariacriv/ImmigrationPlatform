@@ -7,37 +7,22 @@ import React from 'react';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import TopicPage from './pages/TopicPage';
+import { useTranslation } from 'react-i18next';
 
 
 function Header() {
+  const { t } = useTranslation();
   return (
-    <header style={{ textAlign: 'center' }}>
-      <h1>The Immigration Platform</h1>
+    <header className="banner">
+      <img src="norwayfjord.jpg" alt="Banner" className="banner-image" />
+      <div className="banner-text">
+        <h1> {t('homepage.websitetitle')}</h1>
+        <p>{t('homepage.websitedescription')}</p>
+      </div>
     </header>
     );
 }
 
-/*function App() {
-
-  const [currentPage, setCurrentPage] = useState('home');
-
-  const handlePageChange = (page) => {
-    setCurrentPage(page);
-  };
-
-
-  return (
-    <div>
-      <Header />
-      <NavigationBar onHomeClick={() => handlePageChange('home')} />
-      {currentPage === 'home' && <HomePage onTopicClick={() => handlePageChange('topic')} />}
-      {currentPage === 'about' && <AboutPage />}
-      {currentPage === 'topic' && <TopicPage />}
-      <Footer onAboutClick={() => handlePageChange('about')} />
-    </div>
-  );
-}
-*/
 
 const App = () => {
 

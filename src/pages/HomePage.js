@@ -2,6 +2,9 @@ import React from 'react';
 import TopicBox from '../components/TopicBox';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
+import { FaPassport, FaUniversity, FaBriefcase, FaHospital, FaHome, FaMapMarkedAlt, FaHiking, FaMoneyCheckAlt, FaHandsHelping, FaIdCard } from 'react-icons/fa';
+import { MdGTranslate,MdFamilyRestroom  } from "react-icons/md";
+import { IoMdFootball } from "react-icons/io";
 
 const HomePage = () => {
   const { t } = useTranslation();
@@ -12,12 +15,12 @@ const HomePage = () => {
   };
 
     return (
-        <div className="App" style={{ textAlign: 'center' }}>
-            <h2>
-                 {t('homepage.hometext')}
-            </h2>
-            <TopicsGrid onTopicClick={handleTopicClick}/>
-        </div>
+      <div className="App" style={{ textAlign: 'center', overflowY: 'auto', maxHeight: '90vh' }}>
+      <h2 style={{ fontSize: '2em' }}>
+         {t('homepage.hometext')}
+      </h2>
+      <TopicsGrid onTopicClick={handleTopicClick}/>
+      </div>
     ); 
 };
 
@@ -25,30 +28,30 @@ const HomePage = () => {
 
 function TopicsGrid({ onTopicClick }) {
     const topics = [
-      { image: 'logo1.svg', id: 'visa_documents' },
-      { image: 'logo2.svg', id: 'bankid' },
-      { image: 'logo3.svg', id: 'job_taxes' },
-      { image: 'logo4.svg', id: 'education' },
-      { image: 'logo12.svg', id: 'nav' },
-      { image: 'logo5.svg', id: 'healthcare' },
-      { image: 'logo6.svg', id: 'bank_account' },
-      { image: 'logo7.svg', id: 'housing' },
-      { image: 'logo7.svg', id: 'norwegian_culture' },
-      { image: 'logo8.svg', id: 'learn_norwegian' },
-      { image: 'logo9.svg', id: 'family_children' },
-      { image: 'logo11.svg', id: 'explore_norway' },
-      { image: 'logo12.svg', id: 'leisure_volunteering' },
+      { icon: <FaPassport />, id: 'visa_documents' },
+      { icon: <FaIdCard />, id: 'bankid' }, // Updated to use FaIdCard for digital identity
+      { icon: <FaBriefcase />, id: 'job_taxes' },
+      { icon: <FaUniversity />, id: 'education' },
+      { icon: <FaHandsHelping />, id: 'nav' },
+      { icon: <FaHospital />, id: 'healthcare' },
+      { icon: <FaMoneyCheckAlt />, id: 'bank_account' },
+      { icon: <FaHome />, id: 'housing' },
+      { icon: <FaHiking />, id: 'norwegian_culture' },
+      { icon: <MdGTranslate />, id: 'learn_norwegian' },
+      { icon: <MdFamilyRestroom  />, id: 'family_children' },
+      { icon: <FaMapMarkedAlt />, id: 'explore_norway' },
+      { icon: <IoMdFootball />, id: 'leisure_volunteering' },
     ];
   
     const { t } = useTranslation();
 
     return (
-      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+      <div style={styles.grid}>
       {topics.map((topic, index) => (
-        <div key={index} style={{ flex: '0 1 21%', margin: '10px', maxWidth: '21%' }}>
+        <div key={index} style={{ flex: '0 1 21%', margin: '10px', maxWidth: '50%' }}>
         <TopicBox 
           id={topic.id}
-          image={topic.image} 
+          icon={topic.icon} 
           title={t(`topics.${topic.id}.title`)} 
           description={t(`topics.${topic.id}.description`)} 
           onClick={() => onTopicClick(topic.id)}
@@ -59,5 +62,13 @@ function TopicsGrid({ onTopicClick }) {
     );
   }
 
+  const styles = {
+    grid: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      justifyContent: 'center',
+      padding: '20px',
+    },
+  };
 
 export default HomePage;
