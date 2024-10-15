@@ -2,7 +2,8 @@
 
 # Project Description
 
-The Immigration Platform is a web application designed to improve immigrants' understanding of the system in Norway. This project is part of a PhD project at NTNU and aims to provide valuable information and resources to immigrants. The platform includes features such as multilingual support, navigation, and content about the immigration process.
+The Immigration Platform is a web application designed to improve immigrants' understanding of the system in Norway. This project is part of a PhD project at NTNU and aims to provide valuable information and resources to immigrants. The platform consists in an informational website that includes features such as multilingual support, navigation, and content about the immigration process.
+The content is currently work in progress. 
 
 ## Features
 
@@ -10,6 +11,11 @@ The Immigration Platform is a web application designed to improve immigrants' un
 - Navigation bar with links to different sections
 - Informative content about the immigration process
 - Responsive design
+
+## Features yet to develop
+
+- Chatbot
+- Gamification
 
 ## Technologies Used
 
