@@ -8,19 +8,23 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import TopicPage from './pages/TopicPage';
 import { useTranslation } from 'react-i18next';
+import { useLocation } from 'react-router-dom';
 
 
 function Header() {
   const { t } = useTranslation();
+  const location = useLocation();
+  const isHomePage = location.pathname === '/home';
+
   return (
     <header className="banner">
-      <img src="norwayfjord.jpg" alt="Banner" className="banner-image" />
+      {isHomePage && <img src="norwayfjord.jpg" alt="Banner" className="banner-image" />}
       <div className="banner-text">
-        <h1> {t('homepage.websitetitle')}</h1>
+        <h1>{t('homepage.websitetitle')}</h1>
         <p>{t('homepage.websitedescription')}</p>
       </div>
     </header>
-    );
+  );
 }
 
 

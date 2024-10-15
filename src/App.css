@@ -55,7 +55,7 @@
 
 .banner-text {
   flex: 1;
-  text-align: left;
+  text-align: center; /* Center the text horizontally */
 }
 
 .banner-text h1 {
@@ -64,6 +64,7 @@
   color: #fffefe;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow to the text */
   font-family: 'League Spartan', sans-serif;
+  text-transform: uppercase;
 }
 
 .banner-text p {

@@ -1,0 +1,22 @@
+{
+    "pagetitle": "Visum og dokumenter",
+    "pagedescription": "Informasjon om visum og dokumenter du trenger for å oppholde deg i Norge",
+   
+    "visa": {
+        "showtext": "Påkrevd for opphold lengre enn 90 dager",
+        "details": "Påkrevd for studier"
+    },
+    
+    "visa_requirements": {
+        "tourist_visa": "Påkrevd for opphold lengre enn 90 dager",
+        "student_visa": "Påkrevd for studier",
+        "work_visa": "Påkrevd for arbeid"
+    },
+    "document_checklist": [
+        "Pass",
+        "Visumsøknadsskjema",
+        "Passfoto",
+        "Bevis på overnatting",
+        "Bevis på økonomiske midler"
+    ]
+}
