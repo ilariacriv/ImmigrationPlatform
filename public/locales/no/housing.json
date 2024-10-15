@@ -1,0 +1,16 @@
+{
+  "pagetitle": "Bolig",
+  "pagedescription": "Finne og sikre bolig.",
+  "tag25": {
+    "showtext": "Leie",
+    "details": "Informasjon om å leie et hus eller en leilighet."
+  },
+  "tag26": {
+    "showtext": "Kjøpe",
+    "details": "Informasjon om å kjøpe eiendom i Norge."
+  },
+  "tag27": {
+    "showtext": "Boligstøtte",
+    "details": "Detaljer om boligstøttetjenester."
+  }
+}

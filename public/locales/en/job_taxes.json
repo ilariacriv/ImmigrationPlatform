@@ -1,0 +1,16 @@
+{
+  "pagetitle": "Job and Taxes",
+  "pagedescription": "Information about employment and taxation.",
+  "tag10": {
+    "showtext": "Employment Contracts",
+    "details": "Details about employment contracts in Norway."
+  },
+  "tag11": {
+    "showtext": "Taxation Rules",
+    "details": "Information about taxation rules in Norway."
+  },
+  "tag12": {
+    "showtext": "Tax Returns",
+    "details": "How to file your tax returns in Norway."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pagetitle": "BankID",
+  "pagedescription": "Din sikre elektroniske ID for bank og mer.",
+  "what": {
+    "showtext": "Hva er BankID?",
+    "details": "BankID er en personlig og enkel elektronisk ID for sikker identifikasjon og signering på nett."
+  },
+  "how": {
+    "showtext": "Hvordan få BankID?",
+    "details": "Du kan få BankID ved å kontakte banken din og følge deres søknadsprosess."
+  },
+  "app": {
+    "showtext": "BankID App",
+    "details": "BankID-appen lar deg bruke BankID på mobilenheten din."
+  }
+}

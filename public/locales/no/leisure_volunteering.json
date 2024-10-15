@@ -1,0 +1,16 @@
+{
+  "pagetitle": "Fritid og Frivillighet",
+  "pagedescription": "Muligheter for fritidsaktiviteter og frivillighet.",
+  "tag1": {
+    "showtext": "Sport",
+    "details": "Informasjon om sportsaktiviteter."
+  },
+  "tag2": {
+    "showtext": "Hobbyer",
+    "details": "Detaljer om hobbyer og fritidsaktiviteter."
+  },
+  "tag3": {
+    "showtext": "Frivillighet",
+    "details": "Muligheter for frivillig arbeid."
+  }
+}

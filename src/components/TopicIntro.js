@@ -5,9 +5,9 @@ const TopicIntro = (props) => {
     const { t } = useTranslation(`${props.id}`);
 
     return (
-        <div className="topic-intro">
-            <h1>{t('pagetitle')}</h1>
-            <p>{t('pagedescription')}</p>
+        <div className="topic-intro" style={{ textAlign: 'center' }}>
+            <h1 style={{ fontSize: '3em' }}>{t('pagetitle')}</h1>
+            <p style={{ fontSize: '1.2em' }}>{t('pagedescription')}</p>
         </div>
     );
 };

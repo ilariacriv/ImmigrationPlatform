@@ -1,0 +1,16 @@
+{
+    "pagetitle": "Utdanning",
+    "pagedescription": "Utdanningsmuligheter og institusjoner.",
+    "tag13": {
+        "showtext": "Grunnskole",
+        "details": "Informasjon om grunnskole i Norge."
+    },
+    "tag14": {
+        "showtext": "Videregående opplæring",
+        "details": "Informasjon om videregående opplæring i Norge."
+    },
+    "tag15": {
+        "showtext": "Høyere utdanning",
+        "details": "Informasjon om høyere utdanning i Norge."
+    }
+}

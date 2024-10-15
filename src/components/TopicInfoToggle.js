@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 
-const TopicInfo = (props) => {
+const TopicInfoToggle = (props) => {
     const { t } = useTranslation(`${props.id}`);
     const [isOpen, setIsOpen] = useState(false);
 
@@ -31,4 +31,4 @@ const TopicInfo = (props) => {
     );
 };
 
-export default TopicInfo;
+export default TopicInfoToggle;

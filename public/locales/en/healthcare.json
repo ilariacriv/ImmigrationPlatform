@@ -1,0 +1,16 @@
+{
+  "pagetitle": "Healthcare",
+  "pagedescription": "Healthcare services and information.",
+  "tag19": {
+    "showtext": "General Practitioners",
+    "details": "Information about general practitioners in Norway."
+  },
+  "tag20": {
+    "showtext": "Hospitals",
+    "details": "Details about hospitals in Norway."
+  },
+  "tag21": {
+    "showtext": "Emergency Services",
+    "details": "Information about emergency services in Norway."
+  }
+}

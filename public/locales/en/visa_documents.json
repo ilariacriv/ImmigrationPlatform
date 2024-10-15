@@ -3,30 +3,18 @@
    "pagedescription": "Information about visa and documents you need to stay in Norway",
 
    "visa": {
-        "showtext": "Påkrevd for opphold lengre enn 90 dager",
-        "details": "Påkrevd for studier"
+        "showtext": "Example text",
+        "details": "Example text"
     },
 
     "temp_res": {
-        "showtext": "2 Påkrevd for opphold lengre enn 90 dager",
-        "details": "Påkrevd for studier"
+        "showtext": "Example text",
+        "details": "Example text"
     },
 
     "perm_res": {
-        "showtext": "3 Påkrevd for opphold lengre enn 90 dager",
-        "details": "Påkrevd for studier"
-    },
+        "showtext": "Example text",
+        "details": "Example text"
+    }
 
-   "visa_requirements": {
-       "tourist_visa": "Required for stays longer than 90 days",
-       "student_visa": "Required for study purposes",
-       "work_visa": "Required for employment"
-   },
-   "document_checklist": [
-       "Passport",
-       "Visa application form",
-       "Passport-sized photographs",
-       "Proof of accommodation",
-       "Proof of financial means"
-   ]
 }

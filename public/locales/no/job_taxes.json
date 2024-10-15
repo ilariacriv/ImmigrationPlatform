@@ -1,0 +1,16 @@
+{
+  "pagetitle": "Jobb og Skatter",
+  "pagedescription": "Informasjon om ansettelse og beskatning.",
+  "tag10": {
+    "showtext": "Arbeidskontrakter",
+    "details": "Detaljer om arbeidskontrakter i Norge."
+  },
+  "tag11": {
+    "showtext": "Skatteregler",
+    "details": "Informasjon om skatteregler i Norge."
+  },
+  "tag12": {
+    "showtext": "Selvangivelse",
+    "details": "Hvordan levere selvangivelsen i Norge."
+  }
+}

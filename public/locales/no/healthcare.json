@@ -1,0 +1,16 @@
+{
+  "pagetitle": "Helsevesen",
+  "pagedescription": "Helsevesenstjenester og informasjon.",
+  "tag19": {
+    "showtext": "Allmennleger",
+    "details": "Informasjon om allmennleger i Norge."
+  },
+  "tag20": {
+    "showtext": "Sykehus",
+    "details": "Detaljer om sykehus i Norge."
+  },
+  "tag21": {
+    "showtext": "Nødtjenester",
+    "details": "Informasjon om nødtjenester i Norge."
+  }
+}

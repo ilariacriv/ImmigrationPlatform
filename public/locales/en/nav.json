@@ -1,0 +1,16 @@
+{
+  "pagetitle": "NAV",
+  "pagedescription": "Norwegian Labour and Welfare Administration.",
+  "tag16": {
+    "showtext": "Services",
+    "details": "Details about services provided by NAV."
+  },
+  "tag17": {
+    "showtext": "Benefits",
+    "details": "Information about benefits provided by NAV."
+  },
+  "tag18": {
+    "showtext": "Support",
+    "details": "Support services provided by NAV."
+}
+}

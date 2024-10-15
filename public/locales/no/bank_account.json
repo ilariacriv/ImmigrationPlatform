@@ -1,0 +1,16 @@
+{
+  "pagetitle": "Bankkonto",
+  "pagedescription": "Hvordan åpne og administrere en bankkonto.",
+  "tag22": {
+    "showtext": "Åpne en konto",
+    "details": "Trinn for å åpne en bankkonto i Norge."
+  },
+  "tag23": {
+    "showtext": "Administrere kontoen din",
+    "details": "Tips for å administrere bankkontoen din."
+  },
+  "tag24": {
+    "showtext": "Banktjenester",
+    "details": "Oversikt over tjenester som tilbys av banker."
+  }
+}

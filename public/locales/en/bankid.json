@@ -1,0 +1,16 @@
+{
+  "pagetitle": "BankID",
+  "pagedescription": "Your secure electronic ID for banking and more.",
+  "what": {
+    "showtext": "What is BankID?",
+    "details": "BankID is a personal and simple electronic ID for secure identification and signing online."
+  },
+  "how": {
+    "showtext": "How to get BankID?",
+    "details": "You can get BankID by contacting your bank and following their application process."
+  },
+  "app": {
+    "showtext": "BankID App",
+    "details": "The BankID app allows you to use your BankID on your mobile device."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pagetitle": "NAV",
+  "pagedescription": "Arbeids- og velferdsetaten.",
+  "tag16": {
+    "showtext": "Tjenester",
+    "details": "Detaljer om tjenester levert av NAV."
+  },
+  "tag17": {
+    "showtext": "Ytelser",
+    "details": "Informasjon om ytelser levert av NAV."
+  },
+  "tag18": {
+    "showtext": "Støtte",
+    "details": "Støttetjenester levert av NAV."
+  }
+}

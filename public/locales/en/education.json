@@ -1,0 +1,16 @@
+{
+  "pagetitle": "Education",
+  "pagedescription": "Educational opportunities and institutions.",
+  "tag13": {
+    "showtext": "Primary Education",
+    "details": "Information about primary education in Norway."
+  },
+  "tag14": {
+    "showtext": "Secondary Education",
+    "details": "Information about secondary education in Norway."
+  },
+  "tag15": {
+    "showtext": "Higher Education",
+    "details": "Information about higher education in Norway."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pagetitle": "Leisure and Volunteering",
+  "pagedescription": "Opportunities for leisure activities and volunteering.",
+  "tag1": {
+    "showtext": "Sports",
+    "details": "Information about sports activities."
+  },
+  "tag2": {
+    "showtext": "Hobbies",
+    "details": "Details about hobbies and recreational activities."
+  },
+  "tag3": {
+    "showtext": "Volunteering",
+    "details": "Opportunities for volunteering."
+  }
+}
