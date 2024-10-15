@@ -48,7 +48,7 @@ function TopicsGrid({ onTopicClick }) {
     return (
       <div style={styles.grid}>
       {topics.map((topic, index) => (
-        <div key={index} style={{ flex: '0 1 21%', margin: '10px', maxWidth: '50%' }}>
+        <div key={index} style={{ flex: '0 1 21%', margin: '10px', maxWidth: '50%', minWidth: '350px' }}>
         <TopicBox 
           id={topic.id}
           icon={topic.icon} 

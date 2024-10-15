@@ -34,7 +34,9 @@ const App = () => {
     <Router>
       <div>
         <Header />
+        
         <NavigationBar />
+        <Footer />
         <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<HomePage />} />
@@ -42,7 +44,7 @@ const App = () => {
           <Route path="/about" element={<AboutPage />} />
           {/* Add other routes here */}
         </Routes>
-        <Footer />
+        
       </div>
     </Router>
   );
