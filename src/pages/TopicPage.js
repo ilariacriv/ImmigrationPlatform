@@ -20,7 +20,7 @@ const TopicPage = () => {
 };
 
 const topicMap = new Map([
-  ['visa_documents', { infobox: [{infoboxID: 'visa', togglenum: 2}, {infoboxID: 'temp_res', togglenum: 1}, {infoboxID: 'perm_res', togglenum: 3}] }],
+  ['visa_documents', { infobox: [{infoboxID: 'visa', togglenum: 2}, {infoboxID: 'temp_res', togglenum: 3}, {infoboxID: 'perm_res', togglenum: 0}] }],
   ['bankid', { infobox: [{infoboxID: 'what', togglenum: 2}, {infoboxID: 'how', togglenum: 2}, {infoboxID: 'app', togglenum: 2}] }],
   ['job_taxes', { infobox: [{infoboxID: 'tag10', togglenum: 2}, {infoboxID: 'tag11', togglenum: 2}, {infoboxID: 'tag12', togglenum: 2}] }],
   ['education', { infobox: [{infoboxID: 'tag13', togglenum: 2}, {infoboxID: 'tag14', togglenum: 2}, {infoboxID: 'tag15', togglenum: 2}] }],
