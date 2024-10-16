@@ -3,18 +3,42 @@
    "pagedescription": "Information about visa and documents you need to stay in Norway",
 
    "visa": {
-        "showtext": "Example text",
-        "details": "Example text"
+        "titletext": "Visa",
+        "details": "Info about visa",
+        "toggle1": {
+            "showtext": "Do I need a visa?",
+            "details": "Info about visa"
+        },
+        "toggle2": {
+            "showtext": "How long do I have to wait?",
+            "details": "Info about waiting time"
+        }
     },
 
     "temp_res": {
-        "showtext": "Example text",
-        "details": "Example text"
+        "titletext": "Temporary residence permit",
+        "details": "Info about temporary residence permit",
+        "toggle1": {
+            "showtext": "Do I need a visa?",
+            "details": "Info about visa"
+        }
     },
 
     "perm_res": {
-        "showtext": "Example text",
-        "details": "Example text"
+        "titletext": "Permanent residence permit",
+        "details": "Info about permanent residence permit",
+        "toggle1": {
+            "showtext": "Do I need a visa?",
+            "details": "Info about visa"
+        },
+        "toggle2": {
+            "showtext": "How long do I have to wait?",
+            "details": "Info about waiting time"
+        },
+        "toggle3": {
+            "showtext": "How long do I have to wait?",
+            "details": "Info about waiting time"
+        }
     }
 
 }
