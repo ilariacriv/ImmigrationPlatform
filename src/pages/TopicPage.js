@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import TopicIntro from '../components/TopicIntro';
-import TopicInfoToggle from '../components/TopicInfoToggle';
+import TopicInfo from '../components/TopicInfo';
 
 
 const TopicPage = () => {
@@ -13,7 +13,7 @@ const TopicPage = () => {
     <div style={{ padding: '20px' }}>
       <TopicIntro id={id} />
       {topic && topic.togglebox.map((infoId) => (
-        <TopicInfoToggle id={id} topicid={infoId} />
+        <TopicInfo id={id} topicid={infoId} togglenum={2}/>
       ))}
     </div>
   );
