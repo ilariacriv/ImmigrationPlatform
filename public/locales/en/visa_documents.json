@@ -1,20 +1,52 @@
 {
   "pagetitle": "Visa and documents",
-   "pagedescription": "Information about visa and documents you need to stay in Norway",
+   "pagedescription": "In Norway, obtaining a visa or other immigration documents depends on the purpose of your stay and your nationality.  ",
 
    "visa": {
-        "showtext": "Example text",
-        "details": "Example text"
+        "titletext": "Shengen Visa",
+        "details": "A Schengen Visa allows you to stay in Norway or other Schengen countries for up to 90 days within a 180-day period for purposes such as tourism, business, or family visits.",
+        "toggle1": {
+            "showtext": "Do I need a visa?",
+            "details": "Info about visa"
+        },
+        "toggle2": {
+            "showtext": "How long do I have to wait?",
+            "details": "Info about waiting time"
+        }
     },
 
     "temp_res": {
-        "showtext": "Example text",
-        "details": "Example text"
+        "titletext": "Temporary Residence Permit",
+        "details": "If you plan to stay in Norway for more than 90 days, you will likely need a residence permit rather than a visa. Common reasons for applying for a residence permit include work, study, or family reunification.",
+        "toggle1": {
+            "showtext": "Work Permit",
+            "details": "If you have a job offer in Norway, your employer may apply for a work permit on your behalf, or you can apply yourself."
+        },
+        "toggle2": {
+            "showtext": "Study Permit",
+            "details": "If you’ve been accepted into a Norwegian educational institution, you can apply for a student residence permit. "
+        },
+        "toggle3": {
+            "showtext": "Family Immigration Permit",
+            "details": "If you have family members in Norway (e.g., a spouse, registered partner, or cohabitant), you may apply for family reunification."
+        }
     },
 
     "perm_res": {
-        "showtext": "Example text",
-        "details": "Example text"
+        "titletext": "Permanent Residence Permit",
+        "details": "After living in Norway for a certain number of years on a valid residence permit, you can apply for permanent residence (usually after 3-5 years, depending on your situation). ",
+        "toggle1": {
+            "showtext": "Do I need a visa?",
+            "details": "Info about visa"
+        },
+        "toggle2": {
+            "showtext": "How long do I have to wait?",
+            "details": "Info about waiting time"
+        },
+        "toggle3": {
+            "showtext": "How long do I have to wait?",
+            "details": "Info about waiting time"
+        }
     }
 
 }
