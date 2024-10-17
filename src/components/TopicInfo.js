@@ -7,12 +7,21 @@ import TextList from './TextList';
 const TopicInfo = (props) => {
     const { t } = useTranslation(`${props.ns}`);
 
-    const toggles = Array.from({ length: props.togglenum }, (_, index) => (
-        <TopicInfoToggle key={index} topicid={props.topicid} num={index+1} ns={props.ns}/>
-      ));
 
     const listKey = `${props.topicid}.list`;
     const hasList = t(listKey, { returnObjects: true, defaultValue: false });
+
+    const togglesKey = `${props.topicid}.toggles`;
+    const hasToggles = t(togglesKey, { returnObjects: true, defaultValue: [] });
+
+    if (!Array.isArray(hasToggles)) {
+        console.error(`Expected an array for ${togglesKey}, but got:`, hasToggles);
+        return null;
+    }
+
+    const toggles = hasToggles.map((toggle, index) => (
+        <TopicInfoToggle key={`${props.topicid}-toggle-${index}`} path={props.topicid} ns={props.ns} toggle={toggle}/>
+    ));
     
     return (
         <div className="topic-info-container">
@@ -24,7 +33,7 @@ const TopicInfo = (props) => {
                 </div>
                 
             </div>
-            {toggles}
+        {hasToggles && toggles}
         </div>
     );
 };
