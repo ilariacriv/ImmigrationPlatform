@@ -2,50 +2,92 @@
     "pagetitle": "Visum og dokumenter",
     "pagedescription": "I Norge avhenger det å få visum eller andre immigrasjonsdokumenter av formålet med oppholdet ditt og din nasjonalitet.",
   
+    "resources": {
+        "titletext": "Ressurser",
+        "details": "Her er noen nyttige ressurser for å hjelpe deg med å forstå visum- og innvandringsprosessen i Norge:"
+    },
+
     "visa": {
         "titletext": "Schengen-visum",
         "details": "Et Schengen-visum lar deg oppholde deg i Norge eller andre Schengen-land i opptil 90 dager innenfor en 180-dagers periode for formål som turisme, forretninger eller familiebesøk.",
-        "toggle1": {
-            "showtext": "Trenger jeg visum?",
-            "details": "Info om visum"
-        },
-        "toggle2": {
-            "showtext": "Hvor lenge må jeg vente?",
-            "details": "Info om ventetid"
-        }
+        "toggles": [
+            {
+           "showtext": "Do I need a visa?",
+            "details": [
+                "Info about visa"
+            ]
+            },
+            {
+            "showtext": "How long do I have to wait?",
+            "details": [
+                "Info about waiting time"
+            ]
+            }
+        ]
     },
   
-    "temp_res": {
-        "titletext": "Midlertidig oppholdstillatelse",
-        "details": "Hvis du planlegger å oppholde deg i Norge i mer enn 90 dager, vil du sannsynligvis trenge en oppholdstillatelse i stedet for et visum. Vanlige grunner til å søke om oppholdstillatelse inkluderer arbeid, studier eller familiegjenforening.",
-        "toggle1": {
-            "showtext": "Arbeidstillatelse",
-            "details": "Hvis du har et jobbtilbud i Norge, kan arbeidsgiveren din søke om arbeidstillatelse på dine vegne, eller du kan søke selv."
+"temp_res": {
+    "titletext": "Midlertidig oppholdstillatelse",
+    "details": "Hvis du planlegger å oppholde deg i Norge i mer enn 90 dager, vil du sannsynligvis trenge en oppholdstillatelse i stedet for et visum. Vanlige grunner til å søke om oppholdstillatelse inkluderer arbeid, studier eller familiegjenforening.",
+    "toggles": [
+        {
+        "showtext": "Arbeidstillatelse",
+        "details": [
+            "Hvis du har fått et jobbtilbud i Norge, kan arbeidsgiveren din søke om arbeidstillatelse på dine vegne, eller du kan søke selv.",
+            "Dokumenter som vanligvis kreves:"
+        ],
+        "list":[
+                "Gyldig pass",
+                "Signert arbeidskontrakt",
+                "Bevis på kvalifikasjoner (som vitnemål eller yrkesbevis)",
+                "Bevis på tilstrekkelige midler (hvis aktuelt)",
+                "Helseforsikring"
+        ],
+        "finalDetails": [
+            "Etter innsending av søknaden, kan det hende du må delta på et intervju."
+        ]
         },
-        "toggle2": {
-            "showtext": "Studietillatelse",
-            "details": "Hvis du har blitt akseptert ved en norsk utdanningsinstitusjon, kan du søke om studentoppholdstillatelse."
+        {
+        "showtext": "Studietillatelse",
+        "details": [
+            "Hvis du har blitt akseptert ved en norsk utdanningsinstitusjon, kan du søke om studentoppholdstillatelse."
+        ]
         },
-        "toggle3": {
-            "showtext": "Familieinnvandringstillatelse",
-            "details": "Hvis du har familiemedlemmer i Norge (f.eks. ektefelle, registrert partner eller samboer), kan du søke om familiegjenforening."
+        {
+        "showtext": "Familieinnvandringstillatelse",
+        "details": [
+            "Hvis du har familiemedlemmer i Norge (f.eks. ektefelle, registrert partner eller samboer), kan du søke om familiegjenforening."
+        ]
         }
-    },
-  
+    ]
+},
+
+
     "perm_res": {
         "titletext": "Permanent oppholdstillatelse",
         "details": "Etter å ha bodd i Norge i et visst antall år på en gyldig oppholdstillatelse, kan du søke om permanent opphold (vanligvis etter 3-5 år, avhengig av din situasjon).",
-        "toggle1": {
-            "showtext": "Trenger jeg visum?",
-            "details": "Info om visum"
-        },
-        "toggle2": {
-            "showtext": "Hvor lenge må jeg vente?",
-            "details": "Info om ventetid"
-        },
-        "toggle3": {
-            "showtext": "Hvor lenge må jeg vente?",
-            "details": "Info om ventetid"
+        "list": {
+            "text": "Du må oppfylle krav som:",
+            "items": [
+            "Ha en gyldig oppholdstillatelse",
+            "Inntektsbevis",
+            "Bestått norskprøve og samfunnskunnskapsprøve",
+            "Ingen kriminell bakgrunn"
+            ]
         }
+    },
+
+    "citizenship": {
+        "titletext": "Citizenship",
+        "details": "After residing in Norway for 7 years (or less in some cases), you may be eligible to apply for Norwegian citizenship.",
+        "list": {
+            "text": "The requirements include:",
+            "items": [
+                "Having permanent residency",
+                "Passing a Norwegian language test (for those aged 18–67)",
+                "Demonstrating knowledge of Norwegian society, laws, and values"
+            ]
+        }
+      
     }
 }
