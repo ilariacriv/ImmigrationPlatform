@@ -2,6 +2,11 @@
     "pagetitle": "Visum og dokumenter",
     "pagedescription": "I Norge avhenger det å få visum eller andre immigrasjonsdokumenter av formålet med oppholdet ditt og din nasjonalitet.",
   
+    "resources": {
+        "titletext": "Ressurser",
+        "details": "Her er noen nyttige ressurser for å hjelpe deg med å forstå visum- og innvandringsprosessen i Norge:"
+    },
+
     "visa": {
         "titletext": "Schengen-visum",
         "details": "Et Schengen-visum lar deg oppholde deg i Norge eller andre Schengen-land i opptil 90 dager innenfor en 180-dagers periode for formål som turisme, forretninger eller familiebesøk.",
@@ -70,5 +75,19 @@
             "Ingen kriminell bakgrunn"
             ]
         }
+    },
+
+    "citizenship": {
+        "titletext": "Citizenship",
+        "details": "After residing in Norway for 7 years (or less in some cases), you may be eligible to apply for Norwegian citizenship.",
+        "list": {
+            "text": "The requirements include:",
+            "items": [
+                "Having permanent residency",
+                "Passing a Norwegian language test (for those aged 18–67)",
+                "Demonstrating knowledge of Norwegian society, laws, and values"
+            ]
+        }
+      
     }
 }

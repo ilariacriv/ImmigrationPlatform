@@ -27,7 +27,6 @@ const TopicInfo = (props) => {
         <div className="topic-info-container">
             <div className="topic-info">
                 <div className="title">{t(`${props.topicid}.titletext`)}</div>
-                <div className="separator"></div>
                 <div className="content">{t(`${props.topicid}.details`)}
                 {hasList && <TextList ns={props.ns} path={props.topicid}/>}
                 </div>

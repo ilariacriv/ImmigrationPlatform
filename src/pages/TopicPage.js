@@ -2,25 +2,31 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import TopicIntro from '../components/TopicIntro';
 import TopicInfo from '../components/TopicInfo';
+import TopicResources from '../components/TopicResources';
+import { useTranslation } from 'react-i18next';
 
 
 const TopicPage = () => {
   const { id } = useParams();
 
   const topic = topicMap.get(id);
+  const { t } = useTranslation(id);
+
+  const hasRes = t('resources', { returnObjects: true, defaultValue: false });
 
   return (
     <div style={{ padding: '20px' }}>
       <TopicIntro id={id} />
+      {hasRes && <TopicResources ns={id}/>}
       {topic && topic.infobox.map((info) => (
-        <TopicInfo ns={id} topicid={info.infoboxID} togglenum={info.togglenum} />
+        <TopicInfo ns={id} topicid={info.infoboxID}/>
       ))}
     </div>
   );
 };
 
 const topicMap = new Map([
-  ['visa_documents', { infobox: [{infoboxID: 'visa'}, {infoboxID: 'temp_res'}, {infoboxID: 'perm_res'}] }],
+  ['visa_documents', { infobox: [{infoboxID: 'visa'}, {infoboxID: 'temp_res'}, {infoboxID: 'perm_res'}, {infoboxID: 'citizenship'}] }],
   ['bankid', { infobox: [{infoboxID: 'what'}, {infoboxID: 'how'}, {infoboxID: 'app'}] }],
   ['job_taxes', { infobox: [{infoboxID: 'tag10'}, {infoboxID: 'tag11'}, {infoboxID: 'tag12'}] }],
   ['education', { infobox: [{infoboxID: 'tag13'}, {infoboxID: 'tag14'}, {infoboxID: 'tag15'}] }],

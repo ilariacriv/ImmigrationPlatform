@@ -1,6 +1,28 @@
 {
   "pagetitle": "Visa and documents",
-   "pagedescription": "In Norway, obtaining a visa or other immigration documents depends on the purpose of your stay and your nationality.  ",
+   "pagedescription": "In Norway, obtaining a visa or other immigration documents depends on the purpose of your stay and your nationality. The Norwegian Directorate of Immigration (UDI) is the main government agency responsible for processing and issuing most types of visas and immigration documents in Norway. ",
+
+    "resources": {
+            "titletext": "Resources",
+            "list": [
+                {
+                "name": "UDI (Norwegian Directorate of Immigration)",
+                "description": " The UDI’s website is the main source for visa and immigration information. You can find up-to-date information on the types of permits and requirements.",
+                "link": "https://www.udi.no/en/",
+                "buttontext": "Visit UDI"
+            
+            },  
+            {
+                "name": "Norwegian Embassy or Consulate",
+                "description": " If you are applying for a short-stay Schengen visa or a residence permit from outside of Norway, the Norwegian Embassy or Consulate in your country plays an important role in the process."
+            },
+            {
+                "name": "VFS Global",
+                "description": " VFS Global is an external service provider that often manages the visa application process on behalf of Norwegian embassies and consulates. VFS Global does not make any decisions on visa or permit applications; it simply facilitates the application process."
+            }
+            ]
+        },
+
 
    "visa": {
         "titletext": "Shengen Visa",
@@ -67,6 +89,20 @@
                 "Proof of income",
                 "Passing Norwegian language and the social studies test",
                 "Not having a criminal record"
+            ]
+        }
+      
+    },
+
+    "citizenship": {
+        "titletext": "Citizenship",
+        "details": "After residing in Norway for 7 years (or less in some cases), you may be eligible to apply for Norwegian citizenship.",
+        "list": {
+            "text": "The requirements include:",
+            "items": [
+                "Having permanent residency",
+                "Passing a Norwegian language test (for those aged 18–67)",
+                "Demonstrating knowledge of Norwegian society, laws, and values"
             ]
         }
       
