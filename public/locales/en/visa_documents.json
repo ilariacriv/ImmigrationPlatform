@@ -35,18 +35,16 @@
     "perm_res": {
         "titletext": "Permanent Residence Permit",
         "details": "After living in Norway for a certain number of years on a valid residence permit, you can apply for permanent residence (usually after 3-5 years, depending on your situation). ",
-        "toggle1": {
-            "showtext": "Do I need a visa?",
-            "details": "Info about visa"
-        },
-        "toggle2": {
-            "showtext": "How long do I have to wait?",
-            "details": "Info about waiting time"
-        },
-        "toggle3": {
-            "showtext": "How long do I have to wait?",
-            "details": "Info about waiting time"
+        "list": {
+            "text": "You must meet requirements such as:",
+            "items": [
+                "Having a valid residence permit",
+                "Proof of income",
+                "Passing Norwegian language and the social studies test",
+                "Not having a criminal record"
+            ]
         }
+      
     }
 
 }

@@ -1,5 +1,6 @@
 .topic-info-container {
     display: flex;
+   
     flex-direction: column;
     align-items: center;
     padding: 20px;
@@ -7,17 +8,19 @@
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     margin-bottom: 20px; /* Add vertical margin */
+
 }
 
 .topic-info {
     display: flex;
     align-items: center;
+    width: 100%;
     padding: 20px;
     margin-bottom: 20px; /* Add vertical margin */
 }
 
 .topic-info .title {
-    flex: 0.5;
+    flex: 0 0 20%; /* Ensure title takes up 20% of the container */
     padding-right: 10px;
     text-align: left;
     font-size: 2em;
@@ -36,7 +39,7 @@
 }
 
 .topic-info .content {
-    flex: 2;
+    flex: 1; /* Ensure content takes up the remaining space (80%) */
     padding-left: 10px;
     text-align: left;
     font-size: 1em; /* Adjust font size */
