@@ -7,35 +7,57 @@
         "details": "Et Schengen-visum lar deg oppholde deg i Norge eller andre Schengen-land i opptil 90 dager innenfor en 180-dagers periode for formål som turisme, forretninger eller familiebesøk.",
         "toggles": [
             {
-            "showtext": "Trenger jeg visum?",
-            "details": "Info om visum"
+           "showtext": "Do I need a visa?",
+            "details": [
+                "Info about visa"
+            ]
             },
             {
-            "showtext": "Hvor lenge må jeg vente?",
-            "details": "Info om ventetid"
+            "showtext": "How long do I have to wait?",
+            "details": [
+                "Info about waiting time"
+            ]
             }
         ]
     },
   
-    "temp_res": {
-        "titletext": "Midlertidig oppholdstillatelse",
-        "details": "Hvis du planlegger å oppholde deg i Norge i mer enn 90 dager, vil du sannsynligvis trenge en oppholdstillatelse i stedet for et visum. Vanlige grunner til å søke om oppholdstillatelse inkluderer arbeid, studier eller familiegjenforening.",
-        "toggles": [
-            {
-            "showtext": "Arbeidstillatelse",
-            "details": "Hvis du har et jobbtilbud i Norge, kan arbeidsgiveren din søke om arbeidstillatelse på dine vegne, eller du kan søke selv."
-            },
-            {
-            "showtext": "Studietillatelse",
-            "details": "Hvis du har blitt akseptert ved en norsk utdanningsinstitusjon, kan du søke om studentoppholdstillatelse."
-            },
-            {
-            "showtext": "Familieinnvandringstillatelse",
-            "details": "Hvis du har familiemedlemmer i Norge (f.eks. ektefelle, registrert partner eller samboer), kan du søke om familiegjenforening."
-            }
+"temp_res": {
+    "titletext": "Midlertidig oppholdstillatelse",
+    "details": "Hvis du planlegger å oppholde deg i Norge i mer enn 90 dager, vil du sannsynligvis trenge en oppholdstillatelse i stedet for et visum. Vanlige grunner til å søke om oppholdstillatelse inkluderer arbeid, studier eller familiegjenforening.",
+    "toggles": [
+        {
+        "showtext": "Arbeidstillatelse",
+        "details": [
+            "Hvis du har fått et jobbtilbud i Norge, kan arbeidsgiveren din søke om arbeidstillatelse på dine vegne, eller du kan søke selv.",
+            "Dokumenter som vanligvis kreves:"
+        ],
+        "list":[
+                "Gyldig pass",
+                "Signert arbeidskontrakt",
+                "Bevis på kvalifikasjoner (som vitnemål eller yrkesbevis)",
+                "Bevis på tilstrekkelige midler (hvis aktuelt)",
+                "Helseforsikring"
+        ],
+        "finalDetails": [
+            "Etter innsending av søknaden, kan det hende du må delta på et intervju."
         ]
-    },
-  
+        },
+        {
+        "showtext": "Studietillatelse",
+        "details": [
+            "Hvis du har blitt akseptert ved en norsk utdanningsinstitusjon, kan du søke om studentoppholdstillatelse."
+        ]
+        },
+        {
+        "showtext": "Familieinnvandringstillatelse",
+        "details": [
+            "Hvis du har familiemedlemmer i Norge (f.eks. ektefelle, registrert partner eller samboer), kan du søke om familiegjenforening."
+        ]
+        }
+    ]
+},
+
+
     "perm_res": {
         "titletext": "Permanent oppholdstillatelse",
         "details": "Etter å ha bodd i Norge i et visst antall år på en gyldig oppholdstillatelse, kan du søke om permanent opphold (vanligvis etter 3-5 år, avhengig av din situasjon).",

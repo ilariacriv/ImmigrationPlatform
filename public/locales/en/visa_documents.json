@@ -8,11 +8,15 @@
         "toggles": [
             {
             "showtext": "Do I need a visa?",
-            "details": "Info about visa"
+            "details": [
+                "Info about visa"
+            ]
             },
             {
             "showtext": "How long do I have to wait?",
-            "details": "Info about waiting time"
+            "details": [
+                "Info about waiting time"
+            ]
             }
         ]
     },
@@ -23,15 +27,32 @@
         "toggles": [
             {
             "showtext": "Work Permit",
-            "details": "If you have a job offer in Norway, your employer may apply for a work permit on your behalf, or you can apply yourself."
+            "details": [
+                "If you have a job offer in Norway, your employer may apply for a work permit on your behalf, or you can apply yourself.",
+                "Documents that are usually required:"
+            ],
+            "list":[
+                    "A valid passport",
+                    "A signed employment contract",
+                    "Proof of qualifications (like diplomas or professional certificates)",
+                    "Proof of sufficient funds (if applicable)",
+                    "Health insurance"
+            ],
+            "finalDetails": [
+                "After submitting the application, you may need to attend an interview."
+            ]
             },
             {
             "showtext": "Study Permit",
-            "details": "If you’ve been accepted into a Norwegian educational institution, you can apply for a student residence permit."
+            "details": [
+                "If you’ve been accepted into a Norwegian educational institution, you can apply for a student residence permit."
+            ]
             },
             {
             "showtext": "Family Immigration Permit",
-            "details": "If you have family members in Norway (e.g., a spouse, registered partner, or cohabitant), you may apply for family reunification."
+            "details": [
+                "If you have family members in Norway (e.g., a spouse, registered partner, or cohabitant), you may apply for family reunification."
+            ]
             }
         ]
     },

@@ -25,9 +25,33 @@ const TopicInfoToggle = (props) => {
             onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'white'}
         >
             <h2 style={{ margin: '0 0 10px 0' }}>{props.toggle.showtext}</h2>
-            {isOpen && <p style={{ margin: '0' }}>{props.toggle.details}</p>}
+            {isOpen && (
+                <div>
+                    {Array.isArray(props.toggle.details) && (
+                         props.toggle.details.map((item, index) => (
+                            <p style={{ margin: '0 0 10px 0' }}>{item}</p>
+                        ))
+                    )}
+                    
+                    {Array.isArray(props.toggle.list) && (
+                        <ul>
+                            {props.toggle.list.map((item, index) => (
+                                <li key={index}>{item}</li>
+                            ))}
+                        </ul>
+                    )}
+                    
+                    {Array.isArray(props.toggle.finalDetails) && (
+                         props.toggle.finalDetails.map((item, index) => (
+                            <p style={{ margin: '0 0 10px 0' }}>{item}</p>
+                        ))
+                    )}
+                </div>
+            )}
         </div>
     );
+
+    
 };
 
 export default TopicInfoToggle;
