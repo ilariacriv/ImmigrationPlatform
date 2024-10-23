@@ -9,6 +9,7 @@ import AboutPage from './pages/AboutPage';
 import TopicPage from './pages/TopicPage';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
+import GuidePage from './pages/GuidePage';
 
 
 function Header() {
@@ -42,6 +43,7 @@ const App = () => {
           <Route path="/home" element={<HomePage />} />
           <Route path="/topics/:id" element={<TopicPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/guidepage" element={<GuidePage />} />
           {/* Add other routes here */}
         </Routes>
         

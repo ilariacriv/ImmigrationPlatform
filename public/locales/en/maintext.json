@@ -8,7 +8,8 @@
   "homepage": {
     "websitetitle": "The Immigration Platform",
     "websitedescription": "Your comprehensive guide to navigating life in Norway",
-    "hometext": "Welcome to Norway! What would you like to know?"
+    "hometext": "Welcome to Norway! What would you like to know?",
+    "guidebutton": "New in Norway? Check our step by step immigration guide!"
   },
   "about": {
     "title": "The Immigration Platform",

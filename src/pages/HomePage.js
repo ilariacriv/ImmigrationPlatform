@@ -14,14 +14,28 @@ const HomePage = () => {
     navigate(`/topics/${topicId}`);
   };
 
+    
+
     return (
-      <div className="App" style={{ textAlign: 'center', overflowY: 'auto', maxHeight: '90vh' }}>
-      <h2 style={{ fontSize: '2em' }}>
-         {t('homepage.hometext')}
+      <div className="App" style={styles.app}>
+      <h2 style={styles.heading}>
+        {t('homepage.hometext')}
       </h2>
+      <button 
+        onClick={() => navigate('/guidepage')} 
+        style={styles.button}
+        onMouseOver={(e) => {
+        Object.assign(e.target.style, styles.buttonHover);
+        }}
+        onMouseOut={(e) => {
+        Object.assign(e.target.style, styles.buttonNormal);
+        }}
+      >
+        {t('homepage.guidebutton')}
+      </button>
       <TopicsGrid onTopicClick={handleTopicClick}/>
       </div>
-    ); 
+    );
 };
 
 
@@ -61,14 +75,50 @@ function TopicsGrid({ onTopicClick }) {
       </div>
     );
   }
-
+  
   const styles = {
     grid: {
       display: 'flex',
       flexWrap: 'wrap',
       justifyContent: 'center',
-      padding: '20px',
+      padding: '40px', // Increased padding
     },
+    app: {
+    textAlign: 'center',
+    overflowY: 'auto',
+    maxHeight: '90vh',
+    padding: '20px',
+    },
+    heading: {
+    fontSize: '3em',
+    marginBottom: '20px',
+    color: '#000000',
+    },
+    button: {
+    backgroundColor: '#800000', /* Bordeaux */
+    border: 'none',
+    color: 'white',
+    padding: '20px 40px', /* Bigger padding */
+    textAlign: 'center',
+    textDecoration: 'none',
+    display: 'inline-block',
+    fontSize: '18px', /* Bigger font size */
+    margin: '4px 2px',
+    cursor: 'pointer',
+    borderRadius: '12px',
+    transition: 'all 0.3s ease', /* Transition for all properties */
+    boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)', /* Add shadow */
+    },
+    buttonHover: {
+    backgroundColor: '#660000',
+    transform: 'scale(1.1)', /* Enlarge button */
+    boxShadow: '0px 8px 12px rgba(0, 0, 0, 0.2)', /* Increase shadow */
+    },
+    buttonNormal: {
+    backgroundColor: '#800000',
+    transform: 'scale(1)', /* Reset size */
+    boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)', /* Reset shadow */
+    }
   };
 
 export default HomePage;
